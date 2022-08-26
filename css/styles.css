@@ -1,0 +1,118 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    font-family: var(--roboto);
+
+}
+
+.wrapper {
+    max-inline-size: 1664px;
+    margin:auto;
+}
+
+p, h1, a {
+    margin: 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-block-end: 16px;
+}
+
+.hero p {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.logo {
+    max-inline-size: 400px;
+}
+
+.etiquetas::after {
+    content: '   13+ 2021 4K UHD';
+}
+
+.etiquetas {
+    margin-block-start: 12px;
+    color: #fafae2a0;
+}
+
+.portada {
+    max-inline-size: 100%;
+}
+
+button {
+    padding-inline: 33px;
+    padding-block: 17px;
+    font-weight: 700;
+    font-size: 22px;
+    background: #824b82;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin-block: 24px;
+}
+
+button:hover{
+    background: #ff000000;
+    cursor: pointer;
+    border-block: 2px solid #4a294a;
+    border-inline: 2px solid #4a294a;
+}
+
+.card {
+    max-inline-size: 880px;
+    z-index: 2;
+    position: relative;
+    border: 1px solid red;
+
+}
+.hero::before {
+    content: '';
+    inline-size: 50%;
+    background: #202020;
+    display: block;
+    position: absolute;
+    inset-block: 0;
+    z-index: 1;
+    clip-path: polygon(0 0, calc(100% - 151px) 0, 100% 100%, 0 100%);
+}
+
+.hero-content {
+    display: flex;
+    block-size: 768px;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+.hero {
+    background-image: url('../img/portada.webp');
+    background-color: #202020;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #fafae2a0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.trailer {
+    margin-block-start: 24px;
+
+}
