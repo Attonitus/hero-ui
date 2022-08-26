@@ -71,7 +71,6 @@ button:hover{
     max-inline-size: 880px;
     z-index: 2;
     position: relative;
-    border: 1px solid red;
 
 }
 .hero::before {
@@ -89,8 +88,6 @@ button:hover{
     display: flex;
     block-size: 768px;
     align-items: center;
-    border: 1px solid red;
-
 }
 
 .hero {
